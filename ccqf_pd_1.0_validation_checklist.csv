@@ -1,0 +1,11 @@
+Validation_Item,Criterion,How_to_Verify,Pass_Threshold,Responsible_Role
+V1,Completeness,All 20 phenomena have non-empty entries for required fields,100% complete,Primary Rater
+V2,Consistency,Testability and Theoretical_Status are logically compatible,"No contradictions (e.g., 'empirical' cannot pair with 'to_be_tested')",Secondary Rater
+V3,Evidence quality,Empirical_Support_Score is justified by cited references,Each score has at least one supporting reference,Expert Reviewer
+V4,Cross-referencing,Related_Phenomena IDs exist in the dataset,All referenced IDs valid,Data Curator
+V5,Translation accuracy,Chinese and English descriptions convey equivalent meaning,Back-translation check passes,Bilingual Reviewer
+V6,Reproducibility,Codebook allows independent raters to recode phenomena,Inter-rater reliability κ > 0.75,Independent Raters
+V7,Ethical labeling,Speculative phenomena are clearly marked as 'to_be_tested',All P5/P11/P12/P14/P15/P17 correctly labeled,Ethics Reviewer
+V8,Prediction linkage,Each 'to_be_tested' or 'direct' phenomenon links to a testable prediction or NA,Clear H1-H6 linkage or explicit NA,Methodologist
+V9,Version control,Dataset version and release date are documented,README contains version 1.0 and date 2026-11-10,Repository Manager
+V10,Accessibility,Files are in open formats (CSV/MD),All files are plain text / CSV,Repository Manager
