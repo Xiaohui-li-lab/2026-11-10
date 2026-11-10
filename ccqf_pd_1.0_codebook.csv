@@ -1,0 +1,15 @@
+Variable_Name,Variable_Type,Description,Allowed_Values,Example
+Phenomenon_ID,string,Unique identifier for each phenomenon,P1-P20,P3
+Phenomenon_Name_EN,string,English name of the phenomenon,Free text,Perceptual bistability
+Phenomenon_Name_CN,string,Chinese name of the phenomenon,Free text,感知双稳态
+Description_EN,string,Detailed English description,Free text,The same visual stimulus can switch...
+Description_CN,string,Detailed Chinese description,Free text,同一视觉刺激可在两种互斥解释间切换
+Category,categorical,Ontological category of the phenomenon,"ontological, epistemological, experiential, social",experiential
+Evidence_Type,categorical,Primary type of evidence supporting the phenomenon,"experimental_cognitive, experimental_psychophysics, experimental_neuroimaging, experimental_linguistic, observational_clinical, phenomenological_reports, philosophical_mathematical, theoretical_cosmological, historical_linguistic, historical_cognitive, textual_religious, religious_experiential, metaphysical_cosmological",experimental_psychophysics
+Testability,categorical,Current empirical testability status,"direct, indirect, to_be_tested",direct
+Theoretical_Status,categorical,Status within CCQF,"empirical, theoretical_conjecture, phenomenological_hypothesis",empirical
+Empirical_Support_Score,integer,0-5 rating of current empirical support,"0,1,2,3,4,5",5
+Key_Keywords,string,Comma-separated keywords,Free text,"bistability, Necker cube, chirality"
+Associated_Prediction,string,Associated testable prediction H1-H6 or NA,"H1,H2,H3,H4,H5,H6,NA","H2, H3"
+Related_Phenomena,string,Related phenomenon IDs,Free text,"P2, P19"
+Notes,string,Additional notes and caveats,Free text,Classic experimental paradigm
